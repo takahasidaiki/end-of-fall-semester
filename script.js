@@ -42,7 +42,7 @@ function loadQuestion() {
     document.getElementById('option2').innerText = question.options.B;
     document.getElementById('option3').innerText = question.options.C;
     document.getElementById('option4').innerText = question.options.D;
-    document.getElementById('question-image').src = "disney_logo.jpg"; // 画像のプレースホルダー
+    document.getElementById('question-image').src = "image/disneylogo.jpg"; // 画像のプレースホルダー
 }
 
 function startTimer() {
